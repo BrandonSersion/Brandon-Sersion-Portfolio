@@ -1,0 +1,68 @@
+body{
+    background-color:rgb(218, 250, 255);
+    color:black;
+    font-family: 'Varela Round', sans-serif;
+    
+    
+}
+h1{
+    font-size:5em;
+}
+
+h2{
+    font-size:2em;
+}
+
+ul.bullets{
+    font-size:2em;
+}
+
+#backend {
+    height:60em;
+    background-image: url("./img/backendcompsuperlight.jpg");    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#database{
+    height:60em;
+    background-image: url("./img/databasecompsuperlight.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#frontend{
+    height:60em;
+    background-image: url("./img/frontendcompsupersuperlight.jpg");    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.title{
+    padding:2.5em;
+}
+
+/* bootstrap override */
+.navbar-dark{
+    background-color:rgba(38, 69, 241);    
+}
+
+.bg-success{
+    background-color:rgba(38, 202, 5, 0.96) !important;
+    /* background-color:rgba(0,0,0,1);     */
+    /* opacity:.8; */
+    
+}
+
+.bg-primary{
+    /* background-color:rgb(3, 3, 116); */
+    background-color:rgba(76, 103, 241, 0.96) !important;
+    /* opacity:.8; */
+    
+}
